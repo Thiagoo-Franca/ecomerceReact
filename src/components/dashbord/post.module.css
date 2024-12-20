@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.post button {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(72, 5, 5);
+
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    width: 180px;
+    border: 1px solid rgb(79, 32, 32);
+}
+
+.post button:hover {
+    background-color: rgb(84, 8, 8);
+    color: rgb(255, 255, 255);
+}
+
+.post:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+        display: block;
+        transition: 0.3s ease-in-out;
+    }
+    .fotoDoCarro {
+        height: 175px;
+        transition: 0.5s;
+    }
+}
+
+.post {
+    background-color: rgb(255, 255, 255);
+    color: rgb(68, 4, 4);
+    border-radius: 5px;
+    margin: 10px;
+    height: 330px;
+    border: 1px solid rgb(79, 32, 32);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoDoCarro {
+    height: 200px;
+    border-radius: 10px;
+    max-width: 400px;
+}

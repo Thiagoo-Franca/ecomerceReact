@@ -1,0 +1,82 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    padding-top: 30px;
+}
+
+.pedidoFeito {
+    display: grid;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    padding-top: 30px;    
+    margin-top: 30px;
+}
+
+.home {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+margin-top: 50px;}
+
+.feito {
+    background-color: rgb(8, 145, 76);
+   display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgb(3, 67, 11);
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: bold;
+}
+
+.carrinho {
+    display: grid;
+    justify-content: right;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    
+}
+
+.carrinho button {
+    color: rgb(35, 18, 18);
+    font-weight: bold;
+    border: 1px solid rgb(176, 132, 132);
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.carrinho button:hover {
+    background-color: rgb(84, 8, 8);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.mostrarMais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.mostrarMais button {
+    background-color: white;
+    height: 20px;
+    border: none;
+    width: 180px;
+    border: 1px solid rgb(79, 32, 32);
+    cursor: pointer;
+}
+
+.mostrarMais button:hover {
+    background-color: rgb(84, 8, 8);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+
+}
+

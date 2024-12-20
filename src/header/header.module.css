@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(157, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    color: white;
+    
+}
+
+.navegacao {
+    margin-top: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+li {
+    padding: 5px 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.logoHeader {
+    height:70px;
+    margin-right: 20px;
+}
+.titleHeader {
+    font-size: 38px;
+    font-family: 'Ferro rosso', arial;
+}
+.pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pesquisa input {
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.pesquisa input::placeholder {
+    color: rgb(165, 162, 162);
+}
+.pesquisa button {
+    height: 30px;
+    width: 40px;
+    background-color: white;
+    border: none;
+    border-left: 1px solid rgb(165, 162, 162);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.carrinho {
+    height: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.login:hover {
+    cursor: pointer;
+}
+.usuario img {
+    height: 40px;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+li:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: ease-out 200ms;
+}
+
+li:hover a {
+    color: rgb(53, 4, 4);
+}
+
+@media (max-width: 768px) {
+    .titleHeader {
+        display: none;
+    }
+    .logoHeader {
+        height: 60px;
+    }
+    .pesquisa {
+        width: 300px;
+    }
+}

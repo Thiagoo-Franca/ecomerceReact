@@ -1,0 +1,32 @@
+.pedidoFeito button {
+    background-color: white;
+    height: 30px;
+    width: 350px;
+    margin: 30px;
+    cursor: pointer;
+    border: 2px solid rgb(176, 132, 132);
+}
+
+.pedidoFeito button:hover {
+    background-color: rgb(97, 6, 6);
+    color: white;
+    transition: 0.5s;
+}
+.pedidoFeito {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feito {
+    background-color: rgb(0, 166, 77);
+    margin-top: 40px;
+    height: 100px;
+    width: 400px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(3, 67, 11);
+}
