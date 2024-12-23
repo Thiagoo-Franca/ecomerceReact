@@ -3,6 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ecomerceReact/', // Adicione o nome do repositório aqui
+  base: '/ecomerceReact/', // Certifique-se de que este é o nome correto do repositório
 });
-

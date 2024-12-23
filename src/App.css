@@ -80,3 +80,9 @@ margin-top: 50px;}
 
 }
 
+@media (max-width: 720px) {
+    .container {
+        grid-template-columns: repeat(1, 450px);
+    }
+}
+
